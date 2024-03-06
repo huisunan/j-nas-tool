@@ -26,7 +26,7 @@ class NasManagerTest {
 
     @Test
     void download() throws Exception {
-        NasManager nasManger = NasManager.getNasManger();
+        NasManager nasManger = new NasManager();
         DownloadContext downloadContext = new DownloadContext();
         downloadContext.setDownload(TestUtil.createQBittorrentDownload(password));
         DownloadInfo downloadInfo = new DownloadInfo(
@@ -38,8 +38,5 @@ class NasManagerTest {
         nasManger.download(downloadContext);
     }
 
-    @Test
-    void test() throws IOException {
 
-    }
 }

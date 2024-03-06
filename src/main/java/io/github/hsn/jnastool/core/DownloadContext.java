@@ -15,7 +15,4 @@ public class DownloadContext {
      * 下载器
      */
     private Download download;
-
-
-
 }

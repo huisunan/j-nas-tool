@@ -7,4 +7,8 @@ public interface Download {
     void download(DownloadInfo downloadInfo) throws Exception;
 
     boolean test();
+
+    boolean isDefault();
+
+    void setDefault(boolean b);
 }
