@@ -1,4 +1,4 @@
-package io.github.hsn.jnastool.torrent.torrent;
+package io.github.hsn.jnastool.torrent;
 
 import io.github.hsn.jnastool.torrent.bencoding.Reader;
 import io.github.hsn.jnastool.torrent.bencoding.Utils;

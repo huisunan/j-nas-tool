@@ -1,17 +1,11 @@
 package io.github.hsn.jnastool.core;
 
 import io.github.hsn.jnastool.TestUtil;
-import io.github.hsn.jnastool.download.QBittorrentDownload;
-import io.github.hsn.jnastool.torrent.torrent.Torrent;
-import io.github.hsn.jnastool.torrent.torrent.TorrentParser;
 import lombok.extern.slf4j.Slf4j;
-import okhttp3.OkHttpClient;
-import okhttp3.logging.HttpLoggingInterceptor;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
