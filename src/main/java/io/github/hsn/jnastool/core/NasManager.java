@@ -10,9 +10,9 @@ public class NasManager {
         return INSTANCE;
     }
 
-    public void download(NasContext nasContext) throws Exception {
-        Download download = nasContext.getDownload();
-        for (DownloadInfo downloadInfo : nasContext.getDownloadInfos()) {
+    public void download(DownloadContext downloadContext) throws Exception {
+        Download download = downloadContext.getDownload();
+        for (DownloadInfo downloadInfo : downloadContext.getDownloadInfos()) {
             download.download(downloadInfo);
         }
     }

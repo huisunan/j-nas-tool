@@ -1,7 +1,0 @@
-version: "3.8"
-services:
-  qbittorrent:
-    image: kasmweb/qbittorrent:1.14.0-rolling
-    container_name: qbittorrent
-    ports:
-      - 8085:6901

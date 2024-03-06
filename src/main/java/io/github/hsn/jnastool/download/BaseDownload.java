@@ -5,6 +5,8 @@ import okhttp3.OkHttp;
 import okhttp3.OkHttpClient;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 
+import java.io.InputStream;
+
 public abstract class BaseDownload {
     protected final String url;
     protected final String username;
@@ -19,6 +21,8 @@ public abstract class BaseDownload {
         this.password = password;
         this.okHttpClient = builder.build();
     }
+
+
 
 
 }

@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class NasContext {
+public class DownloadContext {
     /**
      * 种子下载列表
      */
