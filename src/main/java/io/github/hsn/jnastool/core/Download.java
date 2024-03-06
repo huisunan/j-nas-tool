@@ -1,8 +1,10 @@
-package io.github.hsn.jnastool.download;
+package io.github.hsn.jnastool.core;
 
 import io.github.hsn.jnastool.core.DownloadInfo;
 
 public interface Download {
 
-    void download(DownloadInfo downloadInfo);
+    void download(DownloadInfo downloadInfo) throws Exception;
+
+    boolean test();
 }
